@@ -19,7 +19,6 @@ def perform_math():
         print("Thanks for using my calculator")
         run = False
     else:
-        # Need some regex to remove incorrect typed inputs
         equation = re.sub('[a-zA-Z,.:()" "]', '', equation)
 
         if previous == 0:
